@@ -1,0 +1,18 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# data files
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.zip
+*.gz
+*.h5
+*.pickle
+*.pkl
+
+# reports
+*.pdf
+!projects/**/docs/*.pdf   # allow only PDFs inside docs/ folders
